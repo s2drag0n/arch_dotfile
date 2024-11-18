@@ -1,0 +1,7 @@
+2024/11/17-01:29:01.688 16e83 Reusing MANIFEST /home/szl/.config/google-chrome/Default/IndexedDB/https_www.bilibili.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/11/17-01:29:01.688 16e83 Recovering log #3
+2024/11/17-01:29:01.688 16e83 Reusing old log /home/szl/.config/google-chrome/Default/IndexedDB/https_www.bilibili.com_0.indexeddb.leveldb/000003.log 
+2024/11/17-01:29:13.204 16e84 Level-0 table #5: started
+2024/11/17-01:29:13.205 16e84 Level-0 table #5: 72162 bytes OK
+2024/11/17-01:29:13.207 16e84 Delete type=0 #3
+2024/11/17-01:29:13.207 16e84 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

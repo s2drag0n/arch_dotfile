@@ -1,0 +1,1 @@
+const btn=document.querySelector("#grant-permissions-btn");btn.onclick=async()=>{const permissionValue={origins:["<all_urls>"]};await browser.permissions.request(permissionValue)&&(location.href="index.html")};

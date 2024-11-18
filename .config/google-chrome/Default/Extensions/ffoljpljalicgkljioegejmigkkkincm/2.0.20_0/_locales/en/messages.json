@@ -1,0 +1,257 @@
+{
+   "addedKeys": {
+      "message": "Extension added shortcuts"
+   },
+   "builtinKeys": {
+      "message": "Built-in shortcuts"
+   },
+   "custom": {
+      "message": "Customize"
+   },
+   "extDescription": {
+      "message": "Add useful keyboard shortcuts and default settings for bilibili player."
+   },
+   "extName": {
+      "message": "Extension for Bilibili Player"
+   },
+   "forFullScreen": {
+      "message": "The following shortcuts are especially useful in full screen mode"
+   },
+   "imageFormat": {
+      "message": "Image format:"
+   },
+   "imageFormatJpg": {
+      "message": "jpg"
+   },
+   "imageFormatPng": {
+      "message": "png"
+   },
+   "key0": {
+      "message": "Reset playback rate to 1."
+   },
+   "keyAltShiftS": {
+      "message": "Screenshot to clipboard."
+   },
+   "keyB": {
+      "message": "Hide or show video title in the top center."
+   },
+   "keyBackspace": {
+      "message": "Jump to the beginning and play."
+   },
+   "keyC": {
+      "message": "Toggle captions."
+   },
+   "keyComma": {
+      "message": "Previous frame (while paused)."
+   },
+   "keyD": {
+      "message": "Toggle bullet screen."
+   },
+   "keyEnter": {
+      "message": "Input bullet screen."
+   },
+   "keyEsc": {
+      "message": "Exit full screen."
+   },
+   "keyF": {
+      "message": "Toggle full screen."
+   },
+   "keyG": {
+      "message": "Hide or show video time progress in the top left corner."
+   },
+   "keyH": {
+      "message": "Hide or show current time in the top right corner."
+   },
+   "keyI": {
+      "message": "Toggle lights."
+   },
+   "keyJ": {
+      "message": "Short step backward."
+   },
+   "keyK": {
+      "message": "Play/pause."
+   },
+   "keyL": {
+      "message": "Short step forward."
+   },
+   "keyM": {
+      "message": "Toggle mute."
+   },
+   "keyMinus": {
+      "message": "Decrease playback rate (default -0.25, min is 0.25)."
+   },
+   "keyN": {
+      "message": "Next video if possible."
+   },
+   "keyP": {
+      "message": "Toggle Picture-in-Picture (PiP) mode."
+   },
+   "keyPeriod": {
+      "message": "Next frame (while paused)."
+   },
+   "keyPlus": {
+      "message": "Increase playback rate (default +0.25, max is 5)."
+   },
+   "keyPrevious": {
+      "message": "Previous video if possible."
+   },
+   "keyShift0": {
+      "message": "Video size: 100%"
+   },
+   "keyShiftD": {
+      "message": "Show bullet screen on/off status."
+   },
+   "keyShiftJ": {
+      "message": "Long step backward."
+   },
+   "keyShiftL": {
+      "message": "Long step forward."
+   },
+   "keyShiftMinus": {
+      "message": "Video size: 100% → 75% → 50%"
+   },
+   "keyShiftPlus": {
+      "message": "Video size: 50% → 75% → 100%"
+   },
+   "keyShiftS": {
+      "message": "Screenshot as a file."
+   },
+   "keyT": {
+      "message": "Toggle wide screen."
+   },
+   "keyVolumeDown": {
+      "message": "Decrease volume."
+   },
+   "keyVolumeUp": {
+      "message": "Increase volume."
+   },
+   "keyW": {
+      "message": "Toggle web full screen."
+   },
+   "longStep": {
+      "message": "Long step forward/backward"
+   },
+   "opAutoplay": {
+      "message": "Autoplay"
+   },
+   "opEnableKBS": {
+      "message": "Enable keyboard shortcuts"
+   },
+   "opExitFullscreen": {
+      "message": "Exit fullscreen when video ended"
+   },
+   "opInstallTip1": {
+      "message": "You need to Pin this extension manually so that it can be displayed on the address bar."
+   },
+   "opInstallTip2": {
+      "message": "Due to historical reasons, the option of \"Turn off bullet screen by default\" is enabled in the initial state. If this is not your preference, you can adjust this option below."
+   },
+   "opInstallTitle": {
+      "message": "Installation Tips:"
+   },
+   "opMyOhterExtensions": {
+      "message": "My Other Extensions"
+   },
+   "opNote1": {
+      "message": "*The modified settings take effect in new pages, or refresh the current page."
+   },
+   "opNote2": {
+      "message": "*The current official player will automatically remember the bullet screen state, so even if you cancel \"Turn off bullet screen by default\", you may need to open it again manually."
+   },
+   "opNoteShortcut": {
+      "message": "*All shortcuts represent physical keys, and only those that explicitly prompt Shift need to press Shift."
+   },
+   "opOptionTitle": {
+      "message": "Bilibili Extension Options"
+   },
+   "opPreventshade": {
+      "message": "Prevent bottom bullet screen"
+   },
+   "opRateIt": {
+      "message": "Rate This Extension"
+   },
+   "opScreenMode": {
+      "message": "Default Screen Mode"
+   },
+   "opScreenMode0": {
+      "message": "Normal"
+   },
+   "opScreenMode1": {
+      "message": "Wide Screen"
+   },
+   "opScreenMode2": {
+      "message": "Web Full Screen"
+   },
+   "opShortcut": {
+      "message": "Keyboard Shortcuts"
+   },
+   "opShortcutConflict": {
+      "message": "If you use other extensions with the same keyboard shortcuts, they will conflict. To avoid conflicts, you need to turn off the shortcuts function either in other extensions or in this extension."
+   },
+   "opSmartLight": {
+      "message": "Auto turn on/off lights when ↕ scrolling, perfect for wide screen mode"
+   },
+   "opSpaceAlwaysControl": {
+      "message": "The space bar is always used for play/pause (instead of scrolling down the page)"
+   },
+   "opTurnOffDanmu": {
+      "message": "Turn off bullet screen by default"
+   },
+   "opTurnOffLight": {
+      "message": "Turn off lights by default"
+   },
+   "popHome": {
+      "message": "Bilibili Home"
+   },
+   "popOptions": {
+      "message": "Extension Options"
+   },
+   "popSearch": {
+      "message": "Bilibili Search"
+   },
+   "popShortcuts": {
+      "message": "Keyboard Shortcuts"
+   },
+   "popTimeline": {
+      "message": "Anime Timetable"
+   },
+   "save": {
+      "message": "Save"
+   },
+   "saved": {
+      "message": "Saved"
+   },
+   "second": {
+      "message": "seconds"
+   },
+   "speedStep": {
+      "message": "The step unit of playback rate"
+   },
+   "sponsorContextMenu": {
+      "message": "Sponsor This Extension"
+   },
+   "stateMute": {
+      "message": "Muted"
+   },
+   "stateSpeed": {
+      "message": "Speed $1"
+   },
+   "stateUnmute": {
+      "message": "Unmuted"
+   },
+   "tableAction": {
+      "message": "Action"
+   },
+   "tableShortcut": {
+      "message": "Shortcut"
+   },
+   "timeFormat": {
+      "message": "Time format:"
+   },
+   "timeFormatHour24": {
+      "message": "24-hour"
+   },
+   "timeFormatSecond": {
+      "message": "display second"
+   }
+}

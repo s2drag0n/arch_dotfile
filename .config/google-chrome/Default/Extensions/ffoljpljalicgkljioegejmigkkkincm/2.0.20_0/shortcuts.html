@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="color-scheme" content="light dark">
+  <title data-i18n="opShortcut"></title>
+  <style type="text/css">
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+      font-size: 16px;
+      max-width: 900px;
+      margin: auto;
+      padding-bottom: 25px;
+    }
+    kbd {
+      background-color: #eee;
+      border-radius: 3px;
+      border: 1px solid #b4b4b4;
+      box-shadow: 0 1px 1px rgba(0, 0, 0, .2), 0 2px 0 0 rgba(255, 255, 255, .7) inset;
+      color: #333;
+      display: inline-block;
+      font-size: .85em;
+      font-weight: 700;
+      line-height: 1;
+      padding: 2px 4px;
+      white-space: nowrap;
+    }
+    input, button {
+      font-family: inherit;
+      font-size: inherit;
+      line-height: inherit;
+    }
+    select {
+      height: 24px;
+    }
+    button {
+      cursor: pointer;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 1rem;
+      border: 1px solid #dee2e6;
+    }
+    th, td {
+      padding: 4px 8px;
+      border: 1px solid #dee2e6;
+    }
+    thead th {
+      border-bottom: 2px solid #dee2e6;
+    }
+    .key-width {
+      width: 30%;
+    }
+    .desc-width {
+      width: 70%;
+    }
+    #custom-step {
+      width: 65px;
+    }
+    #saved {
+      color: green;
+      margin-left: 5px;
+      display: none;
+    }
+    #saved.show {
+      display: inline-block;
+    }
+    .d-none {
+      display: none;
+    }
+    .mt-2 {
+      margin-top: 8px;
+    }
+    .mb-2 {
+      margin-bottom: 8px;
+    }
+    .text-muted {
+      color: #6c757d!important;
+    }
+    @media (prefers-color-scheme: dark) {
+      body { background-color: #121212; color: #FFFFFF; }
+      table {
+        border: 0;
+      }
+      th, td {
+        border: 1px solid #454d55;
+      }
+      thead th {
+        border-bottom: 2px solid #454d55;
+      }
+    }
+  </style>
+</head>
+<body><div class="d-none">
+  <h2 data-i18n="builtinKeys"></h2>
+  <table>
+    <thead>
+      <tr>
+        <th scope="col" class="key-width" data-i18n="tableShortcut"></th>
+        <th scope="col" class="desc-width" data-i18n="tableAction"></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row"><kbd>Space</kbd></th>
+        <td><span data-i18n="keyK"></span></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>→</kbd></th>
+        <td><span data-i18n="keyL"></span></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>←</kbd></th>
+        <td><span data-i18n="keyJ"></span></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>↑</kbd></th>
+        <td><span data-i18n="keyVolumeUp"></span></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>↓</kbd></th>
+        <td><span data-i18n="keyVolumeDown"></span></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>Esc</kbd></th>
+        <td><span data-i18n="keyEsc"></span></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>F</kbd></th>
+        <td><span data-i18n="keyF"></span></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>[</kbd></th>
+        <td><span data-i18n="keyPrevious"></span></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>]</kbd></th>
+        <td><span data-i18n="keyN"></span></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>Enter</kbd></th>
+        <td><span data-i18n="keyEnter"></span></td>
+      </tr>
+      <tr>
+        <th scope="row">⏯️</th>
+        <td><span data-i18n="keyK"></span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2 data-i18n="addedKeys"></h2>
+  <table>
+    <thead>
+      <tr>
+        <th scope="col" class="key-width" data-i18n="tableShortcut"></th>
+        <th scope="col" class="desc-width" data-i18n="tableAction"></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row"><kbd>D</kbd></th>
+        <td><span data-i18n="keyD"></span></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>Shift</kbd> + <kbd>D</kbd></th>
+        <td><span data-i18n="keyShiftD"></span></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>F</kbd></th>
+        <td><span data-i18n="keyF"></span></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>W</kbd></th>
+        <td><span data-i18n="keyW"></span></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>T</kbd></th>
+        <td><span data-i18n="keyT"></span></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>J</kbd></th>
+        <td><span data-i18n="keyJ"></span></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>Shift</kbd> + <kbd>J</kbd></th>
+        <td><span data-i18n="keyShiftJ"></span></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>K</kbd></th>
+        <td><span data-i18n="keyK"></span></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>L</kbd></th>
+        <td><span data-i18n="keyL"></span></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>Shift</kbd> + <kbd>L</kbd></th>
+        <td><span data-i18n="keyShiftL"></span></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>M</kbd></th>
+        <td><span data-i18n="keyM"></span></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>N</kbd></th>
+        <td><span data-i18n="keyN"></span></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>P</kbd></th>
+        <td><span data-i18n="keyP"></span></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>I</kbd></th>
+        <td><span data-i18n="keyI"></span></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>C</kbd></th>
+        <td><span data-i18n="keyC"></span></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>+</kbd></th>
+        <td><span data-i18n="keyPlus"></span></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>-</kbd></th>
+        <td><span data-i18n="keyMinus"></span></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>0</kbd></th>
+        <td><span data-i18n="key0"></span></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>Shift</kbd> + <kbd>S</kbd></th>
+        <td>
+          <div><span data-i18n="keyShiftS"></span></div>
+          <div>
+            <span data-i18n="imageFormat"></span>
+            <input type="radio" name="imageFormat" id="imageFormat-png" value="png">
+            <label for="imageFormat-png" data-i18n="imageFormatPng"></label>
+
+            <input type="radio" name="imageFormat" id="imageFormat-jpg" value="jpg">
+            <label for="imageFormat-jpg" data-i18n="imageFormatJpg"></label>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>S</kbd></th>
+        <td><span data-i18n="keyAltShiftS"></span></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>,</kbd></th>
+        <td><span data-i18n="keyComma"></span></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>.</kbd></th>
+        <td><span data-i18n="keyPeriod"></span></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>Backspace</kbd></th>
+        <td><span data-i18n="keyBackspace"></span></td>
+      </tr>
+      <tr>
+        <th scope="row">⏩</th>
+        <td><span data-i18n="keyN"></span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2 data-i18n="forFullScreen"></h2>
+  <table>
+    <thead>
+      <tr>
+        <th scope="col" class="key-width" data-i18n="tableShortcut"></th>
+        <th scope="col" class="desc-width" data-i18n="tableAction"></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row"><kbd>Shift</kbd> + <kbd>+</kbd></th>
+        <td><span data-i18n="keyShiftPlus"></span></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>Shift</kbd> + <kbd>-</kbd></th>
+        <td><span data-i18n="keyShiftMinus"></span></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>Shift</kbd> + <kbd>0</kbd></th>
+        <td><span data-i18n="keyShift0"></span></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>B</kbd></th>
+        <td><span data-i18n="keyB"></span></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>G</kbd></th>
+        <td><span data-i18n="keyG"></span></td>
+      </tr>
+      <tr>
+        <th scope="row"><kbd>H</kbd></th>
+        <td>
+          <div><span data-i18n="keyH"></span></div>
+          <div>
+            <span data-i18n="timeFormat"></span>
+            <input type="checkbox" id="timeFormatHour24">
+            <label for="timeFormatHour24" data-i18n="timeFormatHour24"></label>
+
+            <input type="checkbox" id="timeFormatSecond">
+            <label for="timeFormatSecond" data-i18n="timeFormatSecond"></label>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="mt-2 text-muted"><small data-i18n="opNoteShortcut"></small></div>
+  <div class="mt-2 text-muted">*<small data-i18n="opShortcutConflict"></small></div>
+
+  <h2 data-i18n="custom"></h2>
+  <div>
+    <label for="long-step" data-i18n="longStep"></label>
+    <input type="number" id="long-step" step="1" min="1" max="600"> <span data-i18n="second"></span>
+  </div>
+  <div class="mt-2">
+    <label for="speed-step" data-i18n="speedStep"></label>
+    <select id="speed-step">
+      <option value="0.1">0.1</option>
+      <option value="0.2">0.2</option>
+      <option value="0.25">0.25</option>
+      <option value="0.5">0.5</option>
+      <option value="1">1.0</option>
+    </select>
+  </div>
+  <div class="mt-2">
+    <input type="checkbox" id="spaceAlwaysControl">
+    <label for="spaceAlwaysControl" data-i18n="opSpaceAlwaysControl"></label>
+  </div>
+  <div class="mt-2">
+    <button id="saveStep" data-i18n="save"></button> <span data-i18n="saved" id="saved"></span>
+  </div>
+  <div class="mt-2 text-muted"><small data-i18n="opNote1"></small></div>
+
+  <script type="text/javascript" src="shortcuts.js"></script>
+</div></body>
+</html>

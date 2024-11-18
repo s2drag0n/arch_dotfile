@@ -1,0 +1,17 @@
+[font]
+
+[font.bold]
+family = "jetbrainsmononerdfont"
+style = "Bold"
+
+[font.bold_italic]
+family = "jetbrainsmononerdfont"
+style = "Bold Italic"
+
+[font.italic]
+family = "jetbrainsmononerdfont"
+style = "Italic"
+
+[font.normal]
+family = "jetbrainsmononerdfont"
+style = "Regular"

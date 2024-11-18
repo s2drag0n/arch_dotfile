@@ -1,0 +1,257 @@
+{
+   "addedKeys": {
+      "message": "擴展添加的快捷鍵"
+   },
+   "builtinKeys": {
+      "message": "官方自帶的快捷鍵"
+   },
+   "custom": {
+      "message": "自定義"
+   },
+   "extDescription": {
+      "message": "為B站播放器提供快捷鍵以及調整默認狀態的功能，如關閉彈幕、截圖、畫中畫等。"
+   },
+   "extName": {
+      "message": "哔哩哔哩(Bilibili)播放器擴展"
+   },
+   "forFullScreen": {
+      "message": "以下快捷鍵在全屏模式下特別有用"
+   },
+   "imageFormat": {
+      "message": "圖片格式:"
+   },
+   "imageFormatJpg": {
+      "message": "jpg"
+   },
+   "imageFormatPng": {
+      "message": "png"
+   },
+   "key0": {
+      "message": "恢復正常播放速度。"
+   },
+   "keyAltShiftS": {
+      "message": "視頻截圖到剪切板。"
+   },
+   "keyB": {
+      "message": "顯示或關閉視頻標題（在正上方）。"
+   },
+   "keyBackspace": {
+      "message": "從頭開始播放（跳回到片頭）。"
+   },
+   "keyC": {
+      "message": "開啟或關閉字幕。"
+   },
+   "keyComma": {
+      "message": "上一幀（視頻暫停時可用）。"
+   },
+   "keyD": {
+      "message": "開啟或關閉彈幕。"
+   },
+   "keyEnter": {
+      "message": "輸入彈幕。"
+   },
+   "keyEsc": {
+      "message": "退出全屏。"
+   },
+   "keyF": {
+      "message": "開啟或關閉全屏模式。"
+   },
+   "keyG": {
+      "message": "顯示或關閉視頻當前的時間進度（在左上角）。"
+   },
+   "keyH": {
+      "message": "顯示或關閉現在的時間（在右上角）。"
+   },
+   "keyI": {
+      "message": "關燈或開燈。"
+   },
+   "keyJ": {
+      "message": "短後退。"
+   },
+   "keyK": {
+      "message": "播放/暫停。"
+   },
+   "keyL": {
+      "message": "短快進。"
+   },
+   "keyM": {
+      "message": "靜音或取消靜音。"
+   },
+   "keyMinus": {
+      "message": "降低播放速度（默認-0.25，最小為0.25）。"
+   },
+   "keyN": {
+      "message": "播放下一個視頻（如果有的話）。"
+   },
+   "keyP": {
+      "message": "開啟或關閉畫中畫模式（PiP）。"
+   },
+   "keyPeriod": {
+      "message": "下一幀（視頻暫停時可用）。"
+   },
+   "keyPlus": {
+      "message": "提高播放速度（默認+0.25，最大為5）。"
+   },
+   "keyPrevious": {
+      "message": "播放上一個視頻（如果有的話）。"
+   },
+   "keyShift0": {
+      "message": "視頻縮放：100%"
+   },
+   "keyShiftD": {
+      "message": "顯示彈幕開關（On/Off）狀態。"
+   },
+   "keyShiftJ": {
+      "message": "長後退。"
+   },
+   "keyShiftL": {
+      "message": "長快進。"
+   },
+   "keyShiftMinus": {
+      "message": "視頻縮放：100% → 75% → 50%"
+   },
+   "keyShiftPlus": {
+      "message": "視頻縮放：50% → 75% → 100%"
+   },
+   "keyShiftS": {
+      "message": "視頻截圖到文件。"
+   },
+   "keyT": {
+      "message": "開啟或關閉寬屏模式。"
+   },
+   "keyVolumeDown": {
+      "message": "減小音量。"
+   },
+   "keyVolumeUp": {
+      "message": "增加音量。"
+   },
+   "keyW": {
+      "message": "開啟或關閉網頁全屏模式。"
+   },
+   "longStep": {
+      "message": "長快進/長後退"
+   },
+   "opAutoplay": {
+      "message": "自動播放"
+   },
+   "opEnableKBS": {
+      "message": "啟用快捷鍵"
+   },
+   "opExitFullscreen": {
+      "message": "播放結束時自動退出全屏"
+   },
+   "opInstallTip1": {
+      "message": "您需要手工固定(Pin)此擴展，這樣擴展才能顯示在地址欄上。"
+   },
+   "opInstallTip2": {
+      "message": "由於歷史原因，初始狀態「默認關閉彈幕」選項是開啟的。 如果這不是您的偏好，可以調整下麵的這個選項。"
+   },
+   "opInstallTitle": {
+      "message": "安裝提示："
+   },
+   "opMyOhterExtensions": {
+      "message": "我的其它擴展"
+   },
+   "opNote1": {
+      "message": "*所有設置變更在新打開的頁面中生效或當前頁面刷新後生效。"
+   },
+   "opNote2": {
+      "message": "*目前官方播放器會自動記住上次彈幕的開關狀態，所以即使在設置中取消了默認關彈幕功能，可能也需要您自己再開一次。"
+   },
+   "opNoteShortcut": {
+      "message": "*所有快捷鍵均表示物理按鍵，只有明確提示 Shift 的才需要按 Shift 鍵。"
+   },
+   "opOptionTitle": {
+      "message": "Bilibili 擴展設置"
+   },
+   "opPreventshade": {
+      "message": "遮罩底部彈幕（防擋字幕）"
+   },
+   "opRateIt": {
+      "message": "評估此擴展"
+   },
+   "opScreenMode": {
+      "message": "默認顯示模式"
+   },
+   "opScreenMode0": {
+      "message": "正常"
+   },
+   "opScreenMode1": {
+      "message": "寬屏"
+   },
+   "opScreenMode2": {
+      "message": "網頁全屏"
+   },
+   "opShortcut": {
+      "message": "快捷鍵說明"
+   },
+   "opShortcutConflict": {
+      "message": "如果您同時使用了其它帶有快捷鍵功能的擴展程式，那麼他們可能會衝突，導致功能不正常。 為了避免衝突，您可以在其它擴展或此擴展的設定中關閉相應的快捷鍵功能。"
+   },
+   "opSmartLight": {
+      "message": "上下滾動時自動開關燈，特別適合寬屏模式"
+   },
+   "opSpaceAlwaysControl": {
+      "message": "空白鍵始終用於播放/暫停（而非頁面向下滾動）"
+   },
+   "opTurnOffDanmu": {
+      "message": "默認關閉彈幕"
+   },
+   "opTurnOffLight": {
+      "message": "默認關燈"
+   },
+   "popHome": {
+      "message": "B站主頁"
+   },
+   "popOptions": {
+      "message": "擴展選項"
+   },
+   "popSearch": {
+      "message": "bilibili 搜索"
+   },
+   "popShortcuts": {
+      "message": "快捷鍵說明"
+   },
+   "popTimeline": {
+      "message": "新番時間表"
+   },
+   "save": {
+      "message": "保存"
+   },
+   "saved": {
+      "message": "已保存"
+   },
+   "second": {
+      "message": "秒"
+   },
+   "speedStep": {
+      "message": "播放速度步進單位"
+   },
+   "sponsorContextMenu": {
+      "message": "贊助支持"
+   },
+   "stateMute": {
+      "message": "已靜音"
+   },
+   "stateSpeed": {
+      "message": "倍速 $1"
+   },
+   "stateUnmute": {
+      "message": "已取消靜音"
+   },
+   "tableAction": {
+      "message": "作用"
+   },
+   "tableShortcut": {
+      "message": "快捷鍵"
+   },
+   "timeFormat": {
+      "message": "時間格式:"
+   },
+   "timeFormatHour24": {
+      "message": "24小時"
+   },
+   "timeFormatSecond": {
+      "message": "顯示秒"
+   }
+}
