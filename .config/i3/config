@@ -85,14 +85,15 @@ set $ws10 "web:"
 set $ws11 "obs:"
 
 exec_always --no-startup-id picom --experimental-backend --config ~/.config/picom/picom.conf
+exec_always --no-startup-id sleep 1 && feh --bg-fill ~/Pictures/boy_drink.jpg
 exec --no-startup-id greenclip daemon>/dev/null
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id numlockx on
-exec_always --no-startup-id sleep 1 && feh --bg-fill ~/Pictures/boy_drink.jpg
 exec --no-startup-id blueberry-tray
 exec --no-startup-id nm-applet
-exec_always --no-startup-id i3-auto-layout
+exec --no-startup-id i3-auto-layout
+exec --no-startup-id flameshot
 
 # todo 
 bindsym $mod+F3 exec --no-startup-id ~/.config/i3/scripts/volume_brightness.sh brightness_up
