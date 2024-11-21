@@ -115,3 +115,5 @@ source $ZSH/oh-my-zsh.sh
 
 # proxy_on_off
 source ~/script/term_proxy.sh
+
+alias v=nvim
