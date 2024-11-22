@@ -7,19 +7,12 @@ Aborting."
   exit 1
 }
 
-playerctl -p yesplaymusic status || \
-case $BLOCK_BUTTON in
-1) echo "ok" & i3-msg -q exec yesplaymusic & exit 0;;
-# 1) yesplaymusic && exit 0;;
-esac
-
-
-playerctl -p yesplaymusic metadata | \
-awk -F'xesam:title|xesam:artist' '
+playerctl -p spotify metadata | \
+awk -F'spotify xesam:title|spotify xesam:artist' '
 # 如果匹配到 xesam:title 行，将其值存入变量 title
-/xesam:title/ {title=$2} \
+/spotify xesam:title/ {title=$2} \
 # 如果匹配到 xesam:artist 行，去除每行的前后空格，并将其拼接到变量 artist（用 "," 分隔）
-/xesam:artist/ {
+/spotify xesam:artist/ {
     # 去掉当前行 artist 的前后空格
     gsub(/^ +| +$/, "", $2)
     if (artist != "") {
@@ -38,7 +31,8 @@ END {
   }'
 
 case $BLOCK_BUTTON in
-1) playerctl -p yesplaymusic previous ;;
-2) playerctl -p yesplaymusic play-pause ;;
-3) playerctl -p yesplaymusic next ;;
+1) i3-msg -q exec spotify;;
+3) playerctl -p spotify play-pause ;;
+4) playerctl -p spotify previous ;;
+5) playerctl -p spotify next ;;
 esac

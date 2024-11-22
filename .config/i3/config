@@ -1,7 +1,7 @@
 font pango: JETBRAINS MONO NERD FONT Regular 10
 set $mod Mod4
 
-default_border pixel 2
+default_border pixel 4
 default_floating_border pixel 2
 
 gaps inner 10
@@ -67,6 +67,8 @@ bindsym $mod+Shift+n exec --no-startup-id ~/.config/i3/scripts/empty_workspace
 bindsym $mod+F7 exec --no-startup-id ~/.config/i3/scripts/volume_brightness.sh volume_up
 bindsym $mod+F6 exec --no-startup-id ~/.config/i3/scripts/volume_brightness.sh volume_down
 bindsym $mod+F5 exec --no-startup-id ~/.config/i3/scripts/volume_brightness.sh volume_mute
+bindsym XF86AudioRaiseVolume exec --no-startup-id ~/.config/i3/scripts/volume_brightness.sh volume_up
+bindsym XF86AudioLowerVolume exec --no-startup-id ~/.config/i3/scripts/volume_brightness.sh volume_down
 
 bindsym $mod+F8 exec --no-startup-id playerctl play-pause 
 bindsym $mod+F10 exec --no-startup-id playerctl next
@@ -126,6 +128,7 @@ for_window [class="Pamac-manager"] floating enable
 for_window [class="Clash-verge"] floating enable
 for_window [window_role="About"] floating enable
 for_window [class="wechat"] floating enable
+for_window [class="Spotify"] floating enable
 
 # Define colors variables:
 set $myred = #ff165d;
