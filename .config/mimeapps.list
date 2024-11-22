@@ -1,0 +1,14 @@
+[Default Applications]
+message/rfc822=userapp-Thunderbird-DCD5W2.desktop;
+url=oogle-chrome.desktop;
+x-scheme-handler/clash=clash-verge.desktop
+x-scheme-handler/mailto=userapp-Thunderbird-DCD5W2.desktop;
+x-scheme-handler/mid=userapp-Thunderbird-DCD5W2.desktop;
+text/html=google-chrome.desktop
+x-scheme-handler/http=google-chrome.desktop
+x-scheme-handler/https=google-chrome.desktop
+[Added Associations]
+image/jpeg=google-chrome.desktop;
+x-scheme-handler/mailto=userapp-Thunderbird-DCD5W2.desktop;
+x-scheme-handler/mid=userapp-Thunderbird-DCD5W2.desktop;
+
