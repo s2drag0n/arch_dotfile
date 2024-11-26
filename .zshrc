@@ -116,4 +116,6 @@ source $ZSH/oh-my-zsh.sh
 # proxy_on_off
 source ~/script/term_proxy.sh
 
-alias v=nvim
+[ -f /opt/miniconda3/etc/profile.d/conda.sh ] && source /opt/miniconda3/etc/profile.d/conda.sh
+export CRYPTOGRAPHY_OPENSSL_NO_LEGACY=1
+
